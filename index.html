@@ -6,27 +6,120 @@
     <title>Document</title>
 </head>
 <body>
+    <!--titre de niveau 1-->
+    <!--unordered List = liste non ordonnée-->
+    <h1>Liste non ordonnée</h1>
+    <div>
+        <ul>
+            <li>
+                <p>Acceuil</p>
+            </li>
+            <li>
+                <p>À propos</p>
+            </li>
+            <li>
+                <p>Travail</p>
+            </li>
+            <li>
+                <p>CV</p>
+            </li>
+            <li>
+                <p>Contact</p>
+            </li>
+        </ul>
+    </div>
+       
+    <!--ordered list = liste ordonnée-->
+    <h1>Liste ordonnée</h1>
+    </header>
     <header>
         <nav>
-            <ul>
-                <li>
-                    <a href="">Acceuil</a>
-                </li>
-                <li></li>
-                    <a href="">Login</a>
-                </li>
-                <li></li>
-                    <a href="">Footer</a>
-                </li>
-            </ul>
+            <div>
+                <ol>
+                    <li>
+                        <a href="accueil.html">Acceuil</a>
+                   </li>
+                   <li>
+                       <a href="À propos">À propos</a>
+                   </li>
+                   <li>
+                       <a href="Travail">Travail</a>
+                   </li>
+                   <li>
+                       <a href="CV">CV</a>
+                   </li>
+                   <li>
+                       <a href="Contact">Contact</a>
+                   </li>
+                </ol>
+            </div>
+           
         </nav>
     </header>
-    <h2>test</h2>
-    <h1>Hello</h1>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, nostrum. Corporis, suscipit voluptas at, nam, aut nesciunt doloribus sint cupiditate ullam optio facilis neque culpa obcaecati magnam! Recusandae, et vel.
-    Molestias impedit aspernatur hic nam voluptas dolorem provident voluptates dicta qui maxime nobis excepturi, perferendis, dolorum debitis eaque deserunt corporis numquam id a est distinctio quibusdam. Voluptatem fugiat nam sequi.
-    Rem fugit facere explicabo qui, nulla officia harum consectetur enim placeat accusamus similique perspiciatis repudiandae nihil. Consequatur cum, labore, vero non nihil harum ipsa optio accusantium sint fugiat eum quasi!
-    Temporibus possimus hic architecto, maiores libero recusandae modi. Beatae dicta rerum dolorum, eum natus consequatur soluta fugiat eaque quod quo? Officia architecto adipisci porro dignissimos sed ullam dicta ratione unde?
-    Dolore debitis maxime reiciendis ullam laudantium molestiae. Consequuntur, quasi omnis, reprehenderit obcaecati earum molestiae eligendi eaque rerum nisi doloremque, velit sed. Id laborum accusantium eaque, ipsum pariatur blanditiis quasi tempore.
+    <section>
+        <div>
+            <h1><p>À propos</p></h1>
+            Délégué départemental de la SONAGED avec 7 ans d'expérience dans le secteur de la gestion des déchets, technicien géomatique cartographe. Rigoureux et organisé, j’ai aussi de solides compétences en informatique.
+        </div>
+    </section>
+
+    <!--image-->
+    <section>
+        <div>
+            <h1>Travail</h1>
+            <h3>image</h3>
+            <img src="C:/Users/USER/Desktop/mbeubeuss.jpg" height="100px" alt="mbeubeuss" />
+
+            <!--vidéo-->
+            <h3>vidéo</h3>
+            <video controls width="250">
+                <source src="C:/Users/USER/Desktop/mbeubeuss.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h1>CV</h1>
+            <table>
+                <tr>
+                    <th>nom</th>
+                    <th>pays</th>
+                    <th>competence</th>
+                    <th>experience</th>
+                    <th>formation</th>
+                </tr>
+                <tr>
+                    <td>ousmane</td>
+                    <td>senegal</td>
+                    <td>gestion des dechets</td>
+                    <td>8ans à la sonaged</td>
+                    <td>licence 3 geomatique</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <!--formulaire-->
+    <section>
+        <div>
+            <h1>Contact</h1>
+            <form>
+                <label for="name">Prenom</label>
+                <input type="text" id="name"/>
+                <br/><br/>
+                <label for="email">Email</label>
+                <input type="email" id="email"/>
+                <br/><br/>
+                <label for="password">Password</label>
+                <input type="password" id="password">
+                <br/><br/>
+                <button type="submit">soumettre</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+            <p>powered by ousmane </p>
+    </footer>
 </body>
 </html>
